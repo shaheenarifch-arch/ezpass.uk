@@ -1,12 +1,4 @@
 User-agent: *
 Allow: /
 
-# Sitemaps
-Sitemap: https://explorepasses.com/sitemap.xml
 Sitemap: https://ezpass.uk/sitemap.xml
-
-# Disallow affiliate tracking loops
-Disallow: /cgi-bin/
-Disallow: /tmp/
-
-Host: https://explorepasses.com
