@@ -33,5 +33,19 @@
     "description": "See which attractions a Barcelona pass for families with kids typically includes, plus tips on age limits, validity and choosing the right pass.",
     "file": "barcelona-pass-for-families-with-kids-which-attractions-incl.html",
     "date": "2026-10-07"
+  },
+  {
+    "keyword": "Barcelona sightseeing pass with free public transport included",
+    "title": "Barcelona Sightseeing Pass With Free Public Transport Included",
+    "description": "A Barcelona sightseeing pass with free public transport included explained: what it covers, who benefits, common mistakes, and how to choose one.",
+    "file": "barcelona-sightseeing-pass-with-free-public-transport-included.html",
+    "date": "2026-10-26",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.62,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 8.21
   }
 ]
