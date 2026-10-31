@@ -41,7 +41,41 @@
       document.head.appendChild(script);
   })();
 </script>
-</head>
+<style id="ezx-ui">
+.ezx{--pop:#FF5A3C;--pop2:#E8432A;--ink:#0E2240;--mut:#4B5870;--line:#E3E8F0;margin:32px 0;font-family:inherit}
+.ezx *{box-sizing:border-box}
+.ezx-k{margin:0;font-size:11px;font-weight:800;letter-spacing:.18em;text-transform:uppercase;color:#1D4FB0}
+.ezx h2.ezx-h{margin:6px 0 6px;font-size:clamp(22px,3vw,28px);line-height:1.2;color:var(--ink)}
+.ezx-sub{margin:0 0 16px;color:var(--mut);font-size:15px;line-height:1.6}
+.ezx-sub a,.ezx-fine a{color:var(--pop2);text-decoration:underline;text-underline-offset:3px}
+.ezx-grid{display:grid;gap:14px}
+@media(min-width:720px){.ezx-grid.two{grid-template-columns:1fr 1fr}.ezx-grid.four{grid-template-columns:repeat(4,1fr)}}
+@media(min-width:480px) and (max-width:719px){.ezx-grid.four{grid-template-columns:1fr 1fr}}
+.ezx-card{position:relative;display:flex;flex-direction:column;gap:10px;padding:20px;border-radius:22px;background:#fff;border:1px solid var(--line);box-shadow:0 10px 26px rgba(14,34,64,.06)}
+.ezx-card.main{border:2px solid var(--pop)}
+.ezx-badge{align-self:flex-start;padding:4px 10px;border-radius:999px;font-size:11px;font-weight:700;color:#fff;background:var(--pop)}
+.ezx-badge.soft{color:var(--ink);background:#F2F5FA}
+.ezx-card h3{margin:0;font-size:20px;color:var(--ink)}
+.ezx-card p{margin:0;font-size:14px;line-height:1.6;color:var(--mut)}
+.ezx-btn{margin-top:auto;display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:0 18px;border-radius:999px;font-weight:700;font-size:14px;text-decoration:none!important;color:#fff!important;background:linear-gradient(90deg,var(--pop),var(--pop2));box-shadow:0 8px 20px rgba(255,90,60,.3)}
+.ezx-btn.ghost{color:var(--ink)!important;background:#fff;border:1px solid #D6DEEA;box-shadow:none}
+.ezx-tile{display:flex;flex-direction:column;gap:6px;padding:18px;border-radius:20px;background:#fff;border:1px solid var(--line);text-decoration:none!important;color:inherit;transition:transform .2s,box-shadow .2s}
+.ezx-tile:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(14,34,64,.1)}
+.ezx-ic{width:40px;height:40px;display:grid;place-items:center;border-radius:12px;background:#FFF1EC;font-size:20px}
+.ezx-tile b{font-size:15px;color:var(--ink)}.ezx-tile span{font-size:13px;line-height:1.5;color:var(--mut)}
+.ezx-tile em{margin-top:auto;font-style:normal;font-size:13px;font-weight:700;color:var(--pop2)}
+.ezx-fine{margin:12px 0 0;font-size:12.5px;line-height:1.6;color:#5B6780}
+.ezx-calc{padding:22px;border-radius:24px;background:#F6F8FC;border:1px solid var(--line)}
+.ezx-list{margin:0;padding:0;border:0;display:grid;gap:8px}
+.ezx-item{display:flex;align-items:center;gap:12px;padding:11px 14px;border-radius:14px;background:#fff;border:1px solid var(--line);cursor:pointer;font-size:14px}
+.ezx-item input{width:18px;height:18px;accent-color:var(--pop)}.ezx-item span{flex:1;color:#2F3D52}.ezx-item b{color:var(--ink)}
+.ezx-out{margin-top:14px;display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.ezx-out div{padding:12px;border-radius:14px;background:#fff;border:1px solid var(--line)}
+.ezx-out small{display:block;font-size:11px;font-weight:600;color:#5B6780}.ezx-out strong{font-size:20px;color:var(--ink)}
+.ezx-out .res{background:var(--ink);border-color:var(--ink)}.ezx-out .res small{color:#AFC3E6}.ezx-out .res strong{color:#fff}
+.ezx-out .res.win{background:linear-gradient(135deg,var(--pop),var(--pop2));border-color:transparent}
+.ezx-msg{margin:10px 0 12px;font-size:13.5px;color:var(--mut)}
+</style></head>
 <body><main id="main"><p class="fs-back-row fs-pad"><a class="fs-back" href="/" data-fs-back onclick="if(document.referrer&&document.referrer.indexOf(location.host)>-1&&history.length>1){history.back();return false}"><span aria-hidden="true">&larr;</span> Back</a></p>
 <article>
 
@@ -62,6 +96,16 @@
 <p>Prices moved up since 2023 – the old €79 base is gone. I saw it fluctuate €5-10 depending on season, but March pricing above is accurate. The transport add-on is absolutely worth it in Berlin because a single AB ticket is now €3.50 and you'd need 3-4 a day.</p>
 <p><a href="https://www.awin1.com/cread.php?awinmid=100613&awinaffid=3067297&ued=https%3A%2F%2Fwww.turbopass.com%2Fen%2Fberlin%2Fberlin-city-pass" target="_blank" rel="nofollow sponsored noopener">Get Berlin City Pass – Official Partner Link</a></p>
 
+<section class="ezx ezx-compare" aria-labelledby="ezx-cmp-t">
+<p class="ezx-k">Compare before you buy</p>
+<h2 class="ezx-h" id="ezx-cmp-t">Berlin: Turbopass or Go City?</h2>
+<p class="ezx-sub">How to choose: list the Berlin sights you want, then check which pass includes them. Prices change, so the partner site always shows today’s price.</p>
+<div class="ezx-grid two">
+<div class="ezx-card main"><span class="ezx-badge">Our pick for Berlin</span><h3>Turbopass Berlin</h3><p>One pass for Berlin’s top sights. Instant QR by email and a 12-month activation window.</p><a class="ezx-btn" href="https://www.awin1.com/cread.php?awinmid=100613&awinaffid=3067297&ued=https%3A%2F%2Fwww.turbopass.com%2Fen%2Fberlin%2Fberlin-city-pass" target="_blank" rel="sponsored nofollow noopener">Check Berlin pass price <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
+<div class="ezx-card"><span class="ezx-badge soft">Also compare</span><h3>Go City</h3><p>All-inclusive and explorer passes across 30+ destinations. Explorer passes suit trips with a few chosen sights.</p><a class="ezx-btn ghost" href="https://gocity.tpo.mx/ai5olrjt" target="_blank" rel="sponsored nofollow noopener">Compare Go City <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></div>
+</div>
+<p class="ezx-fine">Sponsored links: we may earn a commission at no extra cost to you. <a href="/affiliate-disclosure.html">Affiliate disclosure</a></p>
+</section>
 <h2>My 3-Day Tested Route: What I Chose and What I Skipped</h2>
 <p>I based myself near Alexanderplatz (Mitte) because almost everything on the pass is walkable from there or one S-Bahn stop. I wanted to test if you can actually do Museum Island without going insane.</p>
 
@@ -158,6 +202,13 @@ Skip it if: you have 1 day only (do single tickets), you only care about clubs/t
 
 <p style="font-size:0.9em;color:#666;">Tested: March 5-7, 2025, 3-day ABC version. I paid full price, no sponsorship, affiliate link above supports this guide at no extra cost. Prices verified Feb 2025 on turbopass.com.</p>
 
+<section class="ezx ezx-trip" aria-labelledby="ezx-trip-t">
+<p class="ezx-k">Complete your trip</p>
+<h2 class="ezx-h" id="ezx-trip-t">Everything else for Berlin</h2>
+<p class="ezx-sub">Your pass covers the sights. These partners cover the rest — book only what you need.</p>
+<div class="ezx-grid four"><a class="ezx-tile" href="https://www.tiqets.com/en/search?q=Berlin" target="_blank" rel="sponsored nofollow noopener"><span class="ezx-ic" aria-hidden="true">🎟️</span><b>Tours &amp; tickets</b><span>Extra Berlin tours and attractions not covered by your pass.</span><em>Browse on Tiqets →</em></a><a class="ezx-tile" href="https://www.welcomepickups.com/" target="_blank" rel="sponsored nofollow noopener"><span class="ezx-ic" aria-hidden="true">🚖</span><b>Airport transfer</b><span>Pre-book a fixed-price driver from the airport to your Berlin hotel.</span><em>Book on Welcome Pickups →</em></a><a class="ezx-tile" href="https://www.airalo.com/germany-esim" target="_blank" rel="sponsored nofollow noopener"><span class="ezx-ic" aria-hidden="true">📶</span><b>Germany eSIM</b><span>Mobile data that works on landing — keep your pass QR and maps online.</span><em>Get an eSIM on Airalo →</em></a><a class="ezx-tile" href="https://radicalstorage.com/luggage-storage/berlin" target="_blank" rel="sponsored nofollow noopener"><span class="ezx-ic" aria-hidden="true">🧳</span><b>Luggage storage</b><span>Drop your bags near the sights on arrival or checkout day in Berlin.</span><em>Find storage on Radical →</em></a></div>
+<p class="ezx-fine">Sponsored links via our travel partners: we may earn a commission at no extra cost to you. <a href="/affiliate-disclosure.html">Affiliate disclosure</a></p>
+</section>
 </article>
 
 <script type="application/ld+json">

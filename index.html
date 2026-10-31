@@ -131,6 +131,10 @@
 @keyframes flash{0%,100%{box-shadow:0 14px 34px rgba(14,34,64,.08)}25%,60%{box-shadow:0 0 0 4px var(--pop),0 22px 44px rgba(255,90,60,.25)}}
 #destinations .note{border-radius:var(--r-xl)}
 
+.trip{padding:8px 0 64px}.trip h2{margin-top:10px;font-size:clamp(26px,3.6vw,36px);line-height:1.15}.trip-sub{margin-top:12px;max-width:620px;color:var(--muted)}
+.trip-grid{margin-top:24px;display:grid;gap:14px}@media(min-width:560px){.trip-grid{grid-template-columns:1fr 1fr}}@media(min-width:1000px){.trip-grid{grid-template-columns:repeat(4,1fr)}}
+.trip-tile{display:flex;flex-direction:column;gap:6px;padding:20px;border-radius:22px;background:#fff;border:1px solid var(--line);transition:transform .2s,box-shadow .2s}.trip-tile:hover{transform:translateY(-3px);box-shadow:0 14px 30px rgba(14,34,64,.1)}
+.trip-ic{width:42px;height:42px;display:grid;place-items:center;border-radius:12px;background:var(--pop-soft);font-size:20px}.trip-tile b{font-size:16px;color:var(--ink)}.trip-tile span{font-size:13.5px;line-height:1.55;color:var(--muted)}.trip-tile em{margin-top:auto;padding-top:6px;font-style:normal;font-size:13px;font-weight:700;color:var(--pop-2)}
 /* spotlight */
 .spot{padding:24px 0 72px}
 .spot-in{display:grid;gap:32px;align-items:center}
@@ -410,6 +414,16 @@
 <a class="btn btn-light" href="https://www.awin1.com/cread.php?awinmid=100613&amp;awinaffid=3067297" target="_blank" rel="sponsored noopener nofollow">View All Prices <svg class="i" aria-hidden="true"><use href="#i-arrow"/></svg></a>
 </aside>
 </div>
+</div>
+</section>
+
+<section class="trip" aria-labelledby="trip-title">
+<div class="wrap">
+<p class="kicker">Complete your trip</p>
+<h2 id="trip-title">Your pass covers the sights. <em>We’ve got the rest.</em></h2>
+<p class="trip-sub">Book only what you need. Each city page also has city-specific picks — open your city’s guide from the cards above.</p>
+<div class="trip-grid"><a class="trip-tile" href="https://www.tiqets.com/" target="_blank" rel="sponsored nofollow noopener"><span class="trip-ic" aria-hidden="true">🎟️</span><b>Tours &amp; tickets</b><span>Extra tours and attractions your pass doesn’t cover.</span><em>Browse on Tiqets →</em></a><a class="trip-tile" href="https://www.welcomepickups.com/" target="_blank" rel="sponsored nofollow noopener"><span class="trip-ic" aria-hidden="true">🚖</span><b>Airport transfers</b><span>Fixed-price drivers from the airport to your hotel.</span><em>Book on Welcome Pickups →</em></a><a class="trip-tile" href="https://www.airalo.com/" target="_blank" rel="sponsored nofollow noopener"><span class="trip-ic" aria-hidden="true">📶</span><b>Travel eSIM</b><span>Data that works on landing — keep your pass QR online.</span><em>Get an eSIM on Airalo →</em></a><a class="trip-tile" href="https://radicalstorage.com/" target="_blank" rel="sponsored nofollow noopener"><span class="trip-ic" aria-hidden="true">🧳</span><b>Luggage storage</b><span>Drop your bags near the sights on arrival day.</span><em>Find storage on Radical →</em></a></div>
+<p class="fine">Sponsored links via our travel partners: we may earn a commission at no extra cost to you. <a href="affiliate-disclosure.html">Affiliate disclosure</a></p>
 </div>
 </section>
 
