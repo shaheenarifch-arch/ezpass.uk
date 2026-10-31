@@ -47,5 +47,19 @@
     "google_quality_passed": true,
     "eeat_score": 100,
     "seo_aeo_score": 8.21
+  },
+  {
+    "keyword": "City sightseeing passes complete guide: how they work and when they save money",
+    "title": "City Sightseeing Passes Complete Guide",
+    "description": "City sightseeing passes complete guide: how they work, what's included, and when they actually save money on your city break. Read before you buy.",
+    "file": "city-sightseeing-passes-complete-guide-how-they-work-and-when-they-save-money.html",
+    "date": "2026-10-31",
+    "archetype": "authority_guide",
+    "archetype_confidence": 0.64,
+    "risk_level": "low",
+    "requires_human_review": false,
+    "google_quality_passed": true,
+    "eeat_score": 100,
+    "seo_aeo_score": 8.64
   }
 ]
